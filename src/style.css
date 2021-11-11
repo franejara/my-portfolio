@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;600&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;600&display=swap");
+
+:root {
+  --primary-color: #b206b0;
+
+  --secondary-color: #f7b71d;
+
+  --third-color: #379956;
+
+  --pale-yellow: #fcf4c4;
+
+  --rose-orange: #f5587b;
+
+  --box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+
+  --title-font: "Andada Pro";
+
+  --paragraph-font: JetBrains Mono;
+
+  --link-decoration: none;
+
+  --transitions: all 200ms ease-in-out;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 40px;
+  font-family: var(--title-font), serif;
+}
+
+h2 {
+  line-height: 47px;
+  font-family: var(--title-font), serif;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font), serif;
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+
+a {
+  text-align: center;
+  text-decoration: var(--link-decoration);
+  color: var(--primary-color);
+  transition: var(--transitions);
+}
+
+a:hover {
+  color: var(--third-color);
+}
+
+button {
+  font-family: var(--title-font), serif;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 12px 15px;
+  color: white;
+  margin: 20px;
+  border-radius: 7px;
+  border: 1px solid #f5587b;
+  background: transparent;
+  box-shadow: var(--box-shadow);
+  transition: var(--transitions);
+  text-align: center;
+}
+
+button:hover {
+  background: #f1f1f1;
+  cursor: pointer;
+  color: var(--third-color);
+  border-color: var(--secondary-color);
+}
+
+.navbar {
+  padding-top: 10px;
+  padding-left: 40px;
+  margin-left: 10px;
+  font-family: var(--paragraph-font);
+}
+
+.main-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 100px;
+}
+
+.presentation {
+  text-align: left;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-more {
+  font-size: 22px;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 80px;
+}
+
+.bio-paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.contact-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.weatherapp {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 7px;
+}
+
+.brushes {
+  width: 100%;
+  height: auto;
+  box-shadow: var(--box-shadow);
+  border-radius: 7px;
+}
+
+.text {
+  text-align: left;
+  padding: 0px 40px;
+  line-height: 27px;
+  font-family: var(--paragraph-font);
+}
+
+.col-md-6 {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.signature {
+  font-size: smaller;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 80px;
+}
