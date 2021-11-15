@@ -55,6 +55,7 @@ a {
 
 a:hover {
   color: var(--third-color);
+  cursor: pointer;
 }
 
 button {
@@ -163,4 +164,33 @@ button:hover {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 80px;
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 29px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 43px;
+  }
+
+  .main-wrap {
+    margin: 40px 22px;
+  }
+
+  .learn-more {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+
+  .project-link {
+    text-decoration: underline;
+  }
+
+  .col-md-6 {
+    padding: 10px;
+    margin-top: 20px;
+  }
 }
