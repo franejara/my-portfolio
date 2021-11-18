@@ -13,7 +13,7 @@
 
   --rose-orange: #f5587b;
 
-  --box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.3);
+  --box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
 
   --title-font: "Andada Pro";
 
@@ -26,12 +26,12 @@
 
 h1 {
   text-align: left;
-  margin-top: 40px;
+  line-height: 60px;
   font-family: var(--title-font), serif;
 }
 
 h2 {
-  line-height: 47px;
+  line-height: 60px;
   font-family: var(--title-font), serif;
 }
 
@@ -54,19 +54,19 @@ a {
 }
 
 a:hover {
-  color: var(--third-color);
+  color: var(--rose-orange);
   cursor: pointer;
 }
 
 button {
   font-family: var(--title-font), serif;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 300;
-  padding: 12px 15px;
+  padding: 17px 22px;
   color: white;
   margin: 20px;
-  border-radius: 7px;
-  border: 1px solid #f5587b;
+  border-radius: 4px;
+  border: 0px solid #f5587b;
   background: transparent;
   box-shadow: var(--box-shadow);
   transition: var(--transitions);
@@ -74,10 +74,8 @@ button {
 }
 
 button:hover {
-  background: #f1f1f1;
   cursor: pointer;
-  color: var(--third-color);
-  border-color: var(--secondary-color);
+  color: var(--rose-orange);
 }
 
 .navbar {
@@ -94,7 +92,6 @@ button:hover {
 }
 
 .presentation {
-  text-align: left;
   margin-top: 80px;
   display: flex;
   flex-direction: column;
@@ -111,51 +108,56 @@ button:hover {
   margin-top: 80px;
 }
 
-.bio-paragraph {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
-
 .contact-info {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  text-align: center;
+  padding: 40px 0px 40px;
+  margin: 40px 0px 40px;
 }
 
-.weatherapp {
-  width: 100%;
-  height: auto;
-  box-shadow: var(--box-shadow);
-  border-radius: 7px;
-}
-
+.about-me-picture,
+.weatherapp,
 .brushes {
   width: 100%;
   height: auto;
   box-shadow: var(--box-shadow);
-  border-radius: 7px;
 }
 
 .text {
   text-align: left;
-  padding: 0px 40px;
+  padding: 0px 20px;
   line-height: 27px;
   font-family: var(--paragraph-font);
 }
 
 .col-md-6 {
   padding: 20px;
-  margin-top: 40px;
+}
+
+.project-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bio {
+  padding-left: 5px;
+}
+
+.project {
+  padding: 37px;
+}
+
+.text-in-picture {
+  padding: 30px 5px;
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 40px;
+  padding-top: 20px;
 }
 
 .signature {
@@ -189,8 +191,8 @@ button:hover {
     text-decoration: underline;
   }
 
-  .col-md-6 {
-    padding: 10px;
+  .contact-info {
+    padding-top: 20px;
     margin-top: 20px;
   }
 }
