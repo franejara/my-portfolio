@@ -95,6 +95,7 @@ button:hover {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
+  padding: 0px 170px;
 }
 
 .learn-more {
@@ -108,20 +109,31 @@ button:hover {
   margin-top: 80px;
 }
 
+.middle-page-subtitle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 80px;
+  padding-bottom: 30px;
+}
+
 .contact-info {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 40px 0px 40px;
-  margin: 40px 0px 40px;
+  padding: 40px 0px;
+  margin: 30px 0px;
 }
 
-.about-me-picture,
-.weatherapp,
-.brushes {
+.about-me-picture {
   width: 100%;
   height: auto;
-  box-shadow: var(--box-shadow);
+  justify-content: right;
+}
+
+.weatherapp {
+  border: #d5d5d5 1px solid;
 }
 
 .text {
