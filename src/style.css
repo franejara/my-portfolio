@@ -95,7 +95,6 @@ button:hover {
   margin-top: 80px;
   display: flex;
   flex-direction: column;
-  padding: 0px 170px;
 }
 
 .learn-more {
@@ -113,17 +112,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 60px;
   margin-top: 80px;
   padding-bottom: 30px;
-}
-
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 40px 0px;
-  margin: 30px 0px;
 }
 
 .about-me-picture {
@@ -147,10 +138,17 @@ button:hover {
   padding: 20px;
 }
 
-.project-cards {
+.project-cards,
+.bottom-links {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.bottom-link-one,
+.bottom-link-two {
+  text-align: center;
+  padding: 30px;
 }
 
 .bio {
@@ -165,13 +163,6 @@ button:hover {
   padding: 30px 5px;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  padding-top: 20px;
-}
-
 .signature {
   font-size: smaller;
   display: flex;
@@ -180,7 +171,7 @@ button:hover {
   margin-top: 80px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) and (min-width: 281px) {
   h1 {
     font-size: 29px;
   }
@@ -203,8 +194,49 @@ button:hover {
     text-decoration: underline;
   }
 
-  .contact-info {
-    padding-top: 20px;
-    margin-top: 20px;
+  .middle-page-subtitle {
+    padding-top: 40px;
+    margin-top: 40px;
+  }
+
+  .project {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 280px) {
+  h1 {
+    font-size: 29px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 43px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .main-wrap {
+    margin: 80px 22px;
+  }
+
+  .learn-more {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+
+  .project-link {
+    text-decoration: underline;
+  }
+
+  .project {
+    padding: 20px;
+  }
+
+  .middle-page-subtitle {
+    padding-top: 40px;
+    margin-top: 40px;
   }
 }
