@@ -88,11 +88,17 @@ button:hover {
 .main-wrap {
   display: flex;
   flex-direction: column;
-  margin: 40px 100px;
+  margin: 30px 100px;
 }
 
-.presentation {
-  margin-top: 80px;
+.home-presentation {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-presentation {
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -118,7 +124,7 @@ button:hover {
 }
 
 .about-me-picture {
-  width: 100%;
+  width: 80%;
   height: auto;
   justify-content: right;
 }
