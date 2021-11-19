@@ -25,9 +25,10 @@
 }
 
 h1 {
-  text-align: left;
-  line-height: 60px;
+  font-size: 44px;
+  text-align: center;
   font-family: var(--title-font), serif;
+  padding-bottom: 30px;
 }
 
 h2 {
@@ -91,16 +92,11 @@ button:hover {
   margin: 30px 100px;
 }
 
-.home-presentation {
-  margin-top: 140px;
+.presentation {
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
-}
-
-.about-presentation {
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
 }
 
 .learn-more {
@@ -174,7 +170,7 @@ button:hover {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 @media (max-width: 414px) and (min-width: 281px) {
