@@ -82,8 +82,13 @@ button:hover {
 .navbar {
   padding-top: 10px;
   padding-left: 40px;
-  margin-left: 10px;
+
   font-family: var(--paragraph-font);
+  box-shadow: var(--box-shadow);
+}
+
+.navbar-toggler {
+  margin: 5px;
 }
 
 .main-wrap {
@@ -221,7 +226,7 @@ button:hover {
   }
 
   .main-wrap {
-    margin: 80px 22px;
+    margin: 30px 10px;
   }
 
   .learn-more {
@@ -240,5 +245,13 @@ button:hover {
   .middle-page-subtitle {
     padding-top: 40px;
     margin-top: 40px;
+  }
+
+  .navbar-toggler {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    display: none;
   }
 }
