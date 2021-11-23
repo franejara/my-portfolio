@@ -178,7 +178,7 @@ footer {
   border-color: grey;
   text-align: center;
   padding: 40px 0px;
-  margin: 20px 0px;
+  margin: 100px 0px 0px;
 }
 
 .socialmedia-icons {
@@ -215,6 +215,10 @@ footer {
     text-decoration: underline;
   }
 
+  footer {
+    margin: 0px;
+  }
+
   .main-wrap {
     margin: 40px 22px;
   }
@@ -249,6 +253,10 @@ footer {
 
   a {
     text-decoration: underline;
+  }
+
+  footer {
+    margin: 0px;
   }
 
   .main-wrap {
