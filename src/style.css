@@ -195,8 +195,7 @@ footer {
 
 .signature {
   font-size: smaller;
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
   text-align: center;
   margin-top: 40px;
 }
